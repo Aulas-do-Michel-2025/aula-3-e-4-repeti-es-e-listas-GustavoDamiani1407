@@ -27,9 +27,9 @@ Fonte: Curso em vídeo.
 """
 n = int(input('Digite um número: '))
 fatorial = 1
-lista = []
+
 for i in range(n, 0, -1):
-    lista.append(i)
     fatorial *= i
-print('O fatorial de ', n, 'é igual a: ', fatorial)
+
+print(f'O fatorial de {n} é {fatorial}.')
 
