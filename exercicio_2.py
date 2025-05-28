@@ -28,4 +28,4 @@ lista_impar = []
 for i in lista:
     if i % 2 == 1:
         lista_impar.append(i)
-print(lista_impar)
+print('Os números ímpares são: ', lista_impar)
